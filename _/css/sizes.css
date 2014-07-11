@@ -1,0 +1,22 @@
+@media (min-width: 28em) {}
+/* Hide all prioritized columns by default */
+@media only all {}
+/* Preset breakpoints if ".ui-responsive" class added to table */
+/* Show priority 1 at 320px (20em x 16px) */
+@media screen and (min-width: 20em) {}
+/* Show priority 2 at 480px (30em x 16px) */
+@media screen and (min-width: 30em) {}
+/* Show priority 3 at 640px (40em x 16px) */
+@media screen and (min-width: 40em) {}
+/* Show priority 4 at 800px (50em x 16px) */
+@media screen and (min-width: 50em) {}
+/* Show priority 5 at 960px (60em x 16px) */
+@media screen and (min-width: 60em) {}
+/* Show priority 6 at 1,120px (70em x 16px) */
+@media screen and (min-width: 70em) {}
+@media only all {}
+@media (min-width: 60em){}
+@media screen and ( max-device-width: 768px ) {}
+@media (min-width:55em) {}
+@media ( max-width: 35em ) {}
+@media ( min-width: 35em ) {}

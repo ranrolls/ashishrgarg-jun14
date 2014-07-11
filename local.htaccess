@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /bL/online/ashishrgarg-jun14/
+
+
+RewriteCond %{REQUEST_URI} ^/system.*
+RewriteRule ^(.*)$ index.php?/$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# RewriteCond $1 !^(index\.php|images|css|robots\.txt|system|pdf|sitemap\.xml|profile.htm|^([A-z,0-9,_,-]+).asp|(.*)\.pdf|phpadmin)
+RewriteCond $1 !^(index\.php|images|css|robots\.txt|system|_u/docs|pdf|sitemap\.xml|profile.htm|^([A-z,0-9,_,-]+).asp|(.*)\.pdf|phpadmin)
+
+RewriteRule ^(.+)$ index.php?/$1 [L]
+ErrorDocument 404 index.php
+	
+</IfModule>

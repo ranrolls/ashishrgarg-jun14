@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+
+<head id="ctl00_Head1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta id="ctl00_keywords" name="keywords"><meta id="ctl00_description" name="description">
+  
+	<style>
+	.mainheading{color:white;}
+	</style>
+   </head>
+<body id="ctl00_page1" style=" margin:0 auto;">
+ <form name="aspnetForm" method="post" action="" id="aspnetForm" style="background-color:">
+ <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tbody><tr valign="top" style="width: 100%">
+                    <td valign="top" style="width:98%">
+                        <table width="99%" cellspacing="1" cellpadding="1" border="1">
+    <tbody>
+        <tr style="font-family:arial; font-size:18px; text-align:center; text-align:center; line-height:30px; font-weight:bold;">
+            <td colspan="2">NSC Calculators</td>
+        </tr>
+        <tr style="font-family:arial; font-size:12px; text-align:center; text-align:center; line-height:30px; font-weight:bold;">
+            <td width="50%">National Saving Certificates (VIII Issue)</td>
+            <td width="50%">National Saving Certificates (IX Issue)</td>
+        </tr>
+        <tr valign="top">
+            <td><script type="text/javascript" language="javascript">
+            function calculationVIIIissue()
+            {
+                var drp = document.getElementById('Select1');
+                // var i = document.forms[0].pradeep.selectedIndex;
+                var i = drp.selectedIndex;
+               
+                if (i == 0) {
+                    
+                    var amt = document.getElementById("Text1").value;
+                    var ast = (amt * 9.72) / 100;
+                    document.getElementById("Text2").value = ast.toFixed(2);
+                    var bst = (amt * 10.67) / 100;
+                    document.getElementById("Text3").value = bst.toFixed(2);
+                    var cst = (amt * 11.71) / 100;
+                    document.getElementById("Text4").value = cst.toFixed(2);
+                    var dst = (amt * 12.85) / 100;
+                    document.getElementById("Text5").value = dst.toFixed(2);
+                    var est = (amt * 14.10) / 100;
+                    document.getElementById("Text6").value = est.toFixed(2);
+                    var fst = (amt * 15.47) / 100;
+                    document.getElementById("Text7").value = fst.toFixed(2);
+
+                    document.getElementById("Text8").value = (+ast + +bst + +cst + +dst + +est + +fst).toFixed(2);
+                    document.getElementById("Text9").value = (+document.getElementById("Text8").value + +document.getElementById("Text1").value).toFixed(2);
+                }
+                else if (i == 1) {
+                   
+                    var amt = document.getElementById("Text1").value;
+                    var ast = (amt * 9.20) / 100;
+                    document.getElementById("Text2").value = ast.toFixed(2);
+                    var bst = (amt * 10.05) / 100;
+                    document.getElementById("Text3").value = bst.toFixed(2);
+                    var cst = (amt * 10.97) / 100;
+                    document.getElementById("Text4").value = cst.toFixed(2);
+                    var dst = (amt * 11.98) / 100;
+                    document.getElementById("Text5").value = dst.toFixed(2);
+                    var est = (amt * 13.09) / 100;
+                    document.getElementById("Text6").value = est.toFixed(2);
+                    var fst = (amt * 14.29) / 100;
+                    document.getElementById("Text7").value = fst.toFixed(2);
+
+                    document.getElementById("Text8").value = (+ast + +bst + +cst + +dst + +est + +fst).toFixed(2);
+                    document.getElementById("Text9").value = (+document.getElementById("Text8").value + +document.getElementById("Text1").value).toFixed(2);
+                }
+                else if (i == 2) {
+                    
+                    var amt = document.getElementById("Text1").value;
+                    var ast = (amt * 8.16) / 100;
+                    document.getElementById("Text2").value = ast.toFixed(2);
+                    var bst = (amt * 8.83) / 100;
+                    document.getElementById("Text3").value = bst.toFixed(2);
+                    var cst = (amt * 9.55) / 100;
+                    document.getElementById("Text4").value = cst.toFixed(2);
+                    var dst = (amt * 10.33) / 100;
+                    document.getElementById("Text5").value = dst.toFixed(2);
+                    var est = (amt * 11.17) / 100;
+                    document.getElementById("Text6").value = est.toFixed(2);
+                    var fst = (amt * 12.08) / 100;
+                    document.getElementById("Text7").value = fst.toFixed(2);
+                    document.getElementById("Text8").value = (+ast + +bst + +cst + +dst + +est + +fst).toFixed(2);
+                    document.getElementById("Text9").value = (+document.getElementById("Text8").value + +document.getElementById("Text1").value).toFixed(2);
+
+                }
+                else if (i == 3) {
+                    
+                    var amt = document.getElementById("Text1").value;
+                    var ast = (amt * 8.58) / 100;
+                    document.getElementById("Text2").value = ast.toFixed(2);
+                    var bst = (amt * 9.31) / 100;
+                    document.getElementById("Text3").value = bst.toFixed(2);
+                    var cst = (amt * 10.11) / 100;
+                    document.getElementById("Text4").value = cst.toFixed(2);
+                    var dst = (amt * 10.98) / 100;
+                    document.getElementById("Text5").value = dst.toFixed(2);
+                    var est = (amt * 11.92) / 100;
+                    document.getElementById("Text6").value = est.toFixed(2);
+                    var fst = (amt * 0) / 100;
+                    document.getElementById("Text7").value = fst.toFixed(2);
+                    document.getElementById("Text8").value = (+ast + +bst + +cst + +dst + +est + +fst).toFixed(2);
+                    document.getElementById("Text9").value = (+document.getElementById("Text8").value + +document.getElementById("Text1").value).toFixed(2);
+
+                }
+                else if (i == 4) {
+                   
+                    var amt = document.getElementById("Text1").value;
+                    var ast = (amt * 8.78) / 100;
+                    document.getElementById("Text2").value = ast.toFixed(2);
+                    var bst = (amt * 9.56) / 100;
+                    document.getElementById("Text3").value = bst.toFixed(2);
+                    var cst = (amt * 10.40) / 100;
+                    document.getElementById("Text4").value = cst.toFixed(2);
+                    var dst = (amt * 11.31) / 100;
+                    document.getElementById("Text5").value = dst.toFixed(2);
+                    var est = (amt * 12.30) / 100;
+                    document.getElementById("Text6").value = est.toFixed(2);
+                    var fst = (amt * 0) / 100;
+                    document.getElementById("Text7").value = fst.toFixed(2);
+                    document.getElementById("Text8").value = (+ast + +bst + +cst + +dst + +est + +fst).toFixed(2);
+                    document.getElementById("Text9").value = (+document.getElementById("Text8").value + +document.getElementById("Text1").value).toFixed(2);
+
+                }
+                else if (i == 5) {
+                    
+                    var amt = document.getElementById("Text1").value;
+                    var ast = (amt * 8.68) / 100;
+                    document.getElementById("Text2").value = ast.toFixed(2);
+                    var bst = (amt * 9.43) / 100;
+                    document.getElementById("Text3").value = bst.toFixed(2);
+                    var cst = (amt * 10.25) / 100;
+                    document.getElementById("Text4").value = cst.toFixed(2);
+                    var dst = (amt * 11.14) / 100;
+                    document.getElementById("Text5").value = dst.toFixed(2);
+                    var est = (amt * 12.11) / 100;
+                    document.getElementById("Text6").value = est.toFixed(2);
+                    var fst = (amt * 0) / 100;
+                    document.getElementById("Text7").value = fst.toFixed(2);
+                    document.getElementById("Text8").value = (+ast + +bst + +cst + +dst + +est + +fst).toFixed(2);
+                    document.getElementById("Text9").value = (+document.getElementById("Text8").value + +document.getElementById("Text1").value).toFixed(2);
+
+                }
+                else if (i == 6) {
+
+                    var amt = document.getElementById("Text1").value;
+                    var ast = (amt * 8.68) / 100;
+                    document.getElementById("Text2").value = ast.toFixed(2);
+                    var bst = (amt * 9.43) / 100;
+                    document.getElementById("Text3").value = bst.toFixed(2);
+                    var cst = (amt * 10.25) / 100;
+                    document.getElementById("Text4").value = cst.toFixed(2);
+                    var dst = (amt * 11.14) / 100;
+                    document.getElementById("Text5").value = dst.toFixed(2);
+                    var est = (amt * 12.11) / 100;
+                    document.getElementById("Text6").value = est.toFixed(2);
+                    var fst = (amt * 0) / 100;
+                    document.getElementById("Text7").value = fst.toFixed(2);
+                    document.getElementById("Text8").value = (+ast + +bst + +cst + +dst + +est + +fst).toFixed(2);
+                    document.getElementById("Text9").value = (+document.getElementById("Text8").value + +document.getElementById("Text1").value).toFixed(2);
+
+                }
+
+            }
+            function pp() {
+                try {
+                    document.getElementById("Text2").value = "";
+                    document.getElementById("Text3").value = "";
+                    document.getElementById("Text4").value = "";
+                    document.getElementById("Text5").value = "";
+                    document.getElementById("Text6").value = "";
+                    document.getElementById("Text7").value = "";
+                    document.getElementById("Text8").value = "";
+                    document.getElementById("Text9").value = "";
+                }
+                catch (e) {
+                }
+            }
+    
+    
+    </script>
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                    <tr valign="top">
+                        <td width="100%" height="99%" style="padding-top:0px;">
+                        <table align="center" style="border: thin solid rgb(153, 51, 102); z-index: 100; font-size: 9pt; font-family: Arial; color: black; text-align: center;">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 194px; color: black;">Purchase Amount</td>
+                                    <td style="width: 194px; color: black;">&nbsp;                 <input type="text" name="text" class="alig" id="Text1" style="width: 168px; text-align: right; font-weight: bold; color: black;"></td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 194px; color: black;">Period of Purchase</td>
+                                    <td style="width: 194px; color: black;"><select style="width: 175px; margin-left: 4px; font-weight: bold; color: black;" id="Select1" onchange="pp()" name="pradeep">
+                                    <option selected="selected" id="cmb1" value="op1">01-03-2001 to 28-02-2002 </option>
+                                    <option id="cmb2" value="op2">01-03-2002 to 28-02-2003</option>
+                                    <option id="cmb3" value="op3">01-03-2003 to 30-11-2011</option>
+                                    <option id="cmb4" value="op4">01-12-2011 to 31-03-2012</option>
+                                    <option id="cmb5" value="op5">01-04-2012 to 31-03-2013</option>
+                                    <option id="cmb6" value="op6">01-04-2013 to 31-03-2014</option>
+                                    <option id="cmb7" value="op7">01-04-2014 to 31-03-2015</option>
+                                    </select></td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 194px; color: black;">1'st Year Interest</td>
+                                    <td style="width: 194px; color: black;">&nbsp;                 <input type="text" name="text" id="Text2" style="width: 168px; text-align: right; font-weight: bold; color: black;"></td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 194px; color: black;">2'nd Year Interest</td>
+                                    <td style="width: 194px; color: black;">&nbsp;                 <input type="text" name="text" id="Text3" style="width: 168px; text-align: right; font-weight: bold; color: black;"></td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 194px; color: black;">3'rd Year Interest</td>
+                                    <td style="width: 194px; color: black;">&nbsp;                 <input type="text" name="text" id="Text4" style="width: 168px; text-align: right; font-weight: bold; color: black;"></td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 194px; color: black;">4'th Year Interest</td>
+                                    <td style="width: 194px; color: black;">&nbsp;                 <input type="text" name="text" class="alig" id="Text5" style="width: 168px; text-align: right; font-weight: bold; color: black;"></td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 194px; color: black;">5'th Year Interest</td>
+                                    <td style="width: 194px; color: black;">&nbsp;                 <input type="text" name="text" class="alig" id="Text6" style="width: 168px; text-align: right; font-weight: bold; color: black;"></td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 194px; color: black;">6'th Year Interest</td>
+                                    <td style="width: 194px; color: black;">&nbsp;                 <input type="text" name="text" class="alig" id="Text7" style="width: 168px; text-align: right; font-weight: bold; color: black;"></td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 194px; color: black;">TOTAL INTEREST</td>
+                                    <td style="width: 194px; color: black;">&nbsp;                 <input type="text" name="text" class="alig" id="Text8" style="width: 168px; text-align: right; font-weight: bold; color: black;"></td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 194px; color: black;">MATURITY AMOUNT</td>
+                                    <td style="width: 194px; color: black;">&nbsp;                 <input type="text" name="text" class="alig" id="Text9" style="width: 168px; text-align: right; font-weight: bold; color: black;"></td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 194px; color: black;"><input type="button" name="button" id="computeVIIIissue" style="margin-left: 10px; font-weight: bold; color: black;" onclick="return calculationVIIIissue();" value="Compute"></td>
+                                    <td style="width: 194px; color: black;">&nbsp;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+            <td><script type="text/javascript" language="javascript">
+    function calculationIXissue() {
+        var drp1 = document.getElementById('Select2');
+        //var j = document.forms[0].nscnew.selectedIndex;
+        var j = drp1.selectedIndex;
+        if (Trim(document.getElementById("txt1").value) == "") {
+            reset1();
+            alert("Enter purchase amount.");
+            return false;
+        }
+        if (j == 0) {
+           
+            var amt = document.getElementById("txt1").value;
+            var ast = (amt * 8.89) / 100;
+            document.getElementById("txt2").value = ast.toFixed(2);
+            var bst = (amt * 9.68) / 100;
+            document.getElementById("txt3").value = bst.toFixed(2);
+            var cst = (amt * 10.54) / 100;
+            document.getElementById("txt4").value = cst.toFixed(2);
+            var dst = (amt * 11.48) / 100;
+            document.getElementById("txt5").value = dst.toFixed(2);
+            var est = (amt * 12.50) / 100;
+            document.getElementById("txt6").value = est.toFixed(2);
+            var fst = (amt * 13.61) / 100;
+            document.getElementById("txt7").value = fst.toFixed(2);
+            var gst = (amt * 14.82) / 100;
+            document.getElementById("txt10").value = gst.toFixed(2);
+            var hst = (amt * 16.13) / 100;
+            document.getElementById("txt11").value = hst.toFixed(2);
+            var ist = (amt * 17.57) / 100;
+            document.getElementById("txt12").value = ist.toFixed(2);
+            var jst = (amt * 19.13) / 100;
+            document.getElementById("txt13").value = jst.toFixed(2);
+
+            document.getElementById("txt8").value = (Number(ast) + Number(bst) + Number(cst) + Number(dst) + Number(est) + Number(fst) + Number(gst) + Number(hst) + Number(ist) + Number(jst)).toFixed(2);
+            document.getElementById("txt9").value = (Number(document.getElementById("txt8").value) + Number(document.getElementById("txt1").value)).toFixed(2);
+        }
+        else if (j == 1) {
+           
+            var amt = document.getElementById("txt1").value;
+            var ast = (amt * 9.10) / 100;
+            document.getElementById("txt2").value = ast.toFixed(2);
+            var bst = (amt * 9.93) / 100;
+            document.getElementById("txt3").value = bst.toFixed(2);
+            var cst = (amt * 10.83) / 100;
+            document.getElementById("txt4").value = cst.toFixed(2);
+            var dst = (amt * 11.81) / 100;
+            document.getElementById("txt5").value = dst.toFixed(2);
+            var est = (amt * 12.89) / 100;
+            document.getElementById("txt6").value = est.toFixed(2);
+            var fst = (amt * 14.06) / 100;
+            document.getElementById("txt7").value = fst.toFixed(2);
+            var gst = (amt * 15.34) / 100;
+            document.getElementById("txt10").value = gst.toFixed(2);
+            var hst = (amt * 16.74) / 100;
+            document.getElementById("txt11").value = hst.toFixed(2);
+            var ist = (amt * 18.26) / 100;
+            document.getElementById("txt12").value = ist.toFixed(2);
+            var jst = (amt * 19.92) / 100;
+            document.getElementById("txt13").value = jst.toFixed(2);
+
+            document.getElementById("txt8").value = (Number(ast) + Number(bst) + Number(cst) + Number(dst) + Number(est) + Number(fst) + Number(gst) + Number(hst) + Number(ist) + Number(jst)).toFixed(2);
+            document.getElementById("txt9").value = (Number(document.getElementById("txt8").value) + Number(document.getElementById("txt1").value)).toFixed(2);
+        }
+        else if (j == 2) {
+           
+            var amt = document.getElementById("txt1").value;
+            var ast = (amt * 8.99) / 100;
+            document.getElementById("txt2").value = ast.toFixed(2);
+            var bst = (amt * 9.80) / 100;
+            document.getElementById("txt3").value = bst.toFixed(2);
+            var cst = (amt * 10.68) / 100;
+            document.getElementById("txt4").value = cst.toFixed(2);
+            var dst = (amt * 11.64) / 100;
+            document.getElementById("txt5").value = dst.toFixed(2);
+            var est = (amt * 12.69) / 100;
+            document.getElementById("txt6").value = est.toFixed(2);
+            var fst = (amt * 13.83) / 100;
+            document.getElementById("txt7").value = fst.toFixed(2);
+            var gst = (amt * 15.08) / 100;
+            document.getElementById("txt10").value = gst.toFixed(2);
+            var hst = (amt * 16.43) / 100;
+            document.getElementById("txt11").value = hst.toFixed(2);
+            var ist = (amt * 17.91) / 100;
+            document.getElementById("txt12").value = ist.toFixed(2);
+            var jst = (amt * 19.52) / 100;
+            document.getElementById("txt13").value = jst.toFixed(2);
+
+            document.getElementById("txt8").value = (Number(ast) + Number(bst) + Number(cst) + Number(dst) + Number(est) + Number(fst) + Number(gst) + Number(hst) + Number(ist) + Number(jst)).toFixed(2);
+            document.getElementById("txt9").value = (Number(document.getElementById("txt8").value) + Number(document.getElementById("txt1").value)).toFixed(2);
+
+        }
+
+        else if (j == 3) {
+
+            var amt = document.getElementById("txt1").value;
+            var ast = (amt * 8.99) / 100;
+            document.getElementById("txt2").value = ast.toFixed(2);
+            var bst = (amt * 9.80) / 100;
+            document.getElementById("txt3").value = bst.toFixed(2);
+            var cst = (amt * 10.68) / 100;
+            document.getElementById("txt4").value = cst.toFixed(2);
+            var dst = (amt * 11.64) / 100;
+            document.getElementById("txt5").value = dst.toFixed(2);
+            var est = (amt * 12.69) / 100;
+            document.getElementById("txt6").value = est.toFixed(2);
+            var fst = (amt * 13.83) / 100;
+            document.getElementById("txt7").value = fst.toFixed(2);
+            var gst = (amt * 15.08) / 100;
+            document.getElementById("txt10").value = gst.toFixed(2);
+            var hst = (amt * 16.43) / 100;
+            document.getElementById("txt11").value = hst.toFixed(2);
+            var ist = (amt * 17.91) / 100;
+            document.getElementById("txt12").value = ist.toFixed(2);
+            var jst = (amt * 19.52) / 100;
+            document.getElementById("txt13").value = jst.toFixed(2);
+
+            document.getElementById("txt8").value = (Number(ast) + Number(bst) + Number(cst) + Number(dst) + Number(est) + Number(fst) + Number(gst) + Number(hst) + Number(ist) + Number(jst)).toFixed(2);
+            document.getElementById("txt9").value = (Number(document.getElementById("txt8").value) + Number(document.getElementById("txt1").value)).toFixed(2);
+
+        }
+    }
+    function reset1() {
+        try {
+           
+            document.getElementById("txt2").value = "";
+            document.getElementById("txt3").value = "";
+            document.getElementById("txt4").value = "";
+            document.getElementById("txt5").value = "";
+            document.getElementById("txt6").value = "";
+            document.getElementById("txt7").value = "";
+            document.getElementById("txt10").value = "";
+            document.getElementById("txt11").value = "";
+            document.getElementById("txt12").value = "";
+            document.getElementById("txt13").value = "";
+            document.getElementById("txt8").value = "";
+            document.getElementById("txt9").value = "";
+            
+            return false;
+        }
+        catch (e) {
+        }
+    }
+
+    function Trim(input) {
+        var lre = /^\s*/;
+        var rre = /\s*$/;
+        input = input.replace(lre, "");
+        input = input.replace(rre, "");
+        return input;
+    }
+    </script>
+            <table align="center" style="border: thin solid rgb(153, 51, 102); z-index: 100; font-size: 9pt; font-family: Arial; color: black; text-align: center;">
+                <tbody>
+                    <tr>
+                        <td style="width: 194px; color: black;">Purchase Amount</td>
+                        <td style="width: 194px; color: black;">&nbsp;<input type="text" id="txt1" style="width: 195px; text-align: right; font-weight: bold; color: black;"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 194px; color: black;">Period of Purchase</td>
+                        <td style="width: 194px; color: black;"><select name="nscnew" onchange="return reset1();" id="Select2" style="width: 195px; margin-left: 4px; font-weight: bold; color: black;">
+                        <option selected="selected" value="opt1" id="cmbo1">01-12-2011 to 31-03-2012 </option>
+                        <option value="opt2" id="cmbo2">01-04-2012 to 31-03-2013 </option>
+                        <option value="opt3" id="cmbo3">01-04-2013 to 31-03-2014</option>
+                        <option value="opt4" id="cmbo4">01-04-2014 to 31-03-2015</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 194px; color: black;">1'st Year Interest</td>
+                        <td style="width: 194px; color: black;">&nbsp;<input type="text" id="txt2" style="width: 195px; text-align: right; font-weight: bold; color: black;"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 194px; color: black;">2'nd Year Interest</td>
+                        <td style="width: 194px; color: black;">&nbsp;<input type="text" id="txt3" style="width: 195px; text-align: right; font-weight: bold; color: black;"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 194px; color: black;">3'rd Year Interest</td>
+                        <td style="width: 194px; color: black;">&nbsp;<input type="text" id="txt4" style="width: 195px; text-align: right; font-weight: bold; color: black;"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 194px; color: black;">4'th Year Interest</td>
+                        <td style="width: 194px; color: black;">&nbsp;<input type="text" id="txt5" style="width: 195px; text-align: right; font-weight: bold; color: black;"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 194px; color: black;">5'th Year Interest</td>
+                        <td style="width: 194px; color: black;">&nbsp;<input type="text" id="txt6" style="width: 195px; text-align: right; font-weight: bold; color: black;"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 194px; color: black;">6'th Year Interest</td>
+                        <td style="width: 194px; color: black;">&nbsp;<input type="text" id="txt7" style="width: 195px; text-align: right; font-weight: bold; color: black;"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 194px; color: black;">7'th Year Interest</td>
+                        <td style="width: 194px; color: black;">&nbsp;<input type="text" id="txt10" style="width: 195px; text-align: right; font-weight: bold; color: black;"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 194px; color: black;">8'th Year Interest</td>
+                        <td style="width: 194px; color: black;">&nbsp;<input type="text" id="txt11" style="width: 195px; text-align: right; font-weight: bold; color: black;"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 194px; color: black;">9'th Year Interest</td>
+                        <td style="width: 194px; color: black;">&nbsp;<input type="text" id="txt12" style="width: 195px; text-align: right; font-weight: bold; color: black;"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 194px; color: black;">10'th Year Interest</td>
+                        <td style="width: 194px; color: black;">&nbsp;<input type="text" id="txt13" style="width: 195px; text-align: right; font-weight: bold; color: black;"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 194px; color: black;">TOTAL INTEREST</td>
+                        <td style="width: 194px; color: black;">&nbsp;<input type="text" id="txt8" style="width: 195px; text-align: right; font-weight: bold; color: black;"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 194px; color: black;">MATURITY AMOUNT</td>
+                        <td style="width: 194px; color: black;">&nbsp;<input type="text" id="txt9" style="width: 195px; text-align: right; font-weight: bold; color: black;"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 194px; color: black;"><input type="button" id="computeIXissue" style="margin-left: 10px; font-weight: bold; color: black;" onclick="return calculationIXissue();" value="Compute"></td>
+                        <td style="width: 194px; color: black;">&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+                    </td>
+                </tr>
+            </tbody></table>
+            </td></tr></tbody></table>
+</form>
+
+
+</body></html>

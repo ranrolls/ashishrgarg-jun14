@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<head id="ctl00_Head1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta id="ctl00_keywords" name="keywords"><meta id="ctl00_description" name="description">
+  
+	<style>
+	.mainheading{color:white;}
+	</style>
+   </head>
+<body id="ctl00_page1" style=" margin:0 auto;">
+ <form name="aspnetForm" method="post" action="" id="aspnetForm" style="background-color:">
+   <table cellpadding="0" cellspacing="5" style="width: 100%;">
+   
+        <tbody><tr style="width: 100%;">
+           
+        </tr>
+        </tbody>
+		</table>
+        <table style="width: 100%">
+        <tbody><tr style="width: 100%;height:98%">
+            <td style="width: 100%;height:98%">
+             <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tbody><tr valign="top" style="width: 100%">
+                    <td valign="top" style="width:98%">
+                        
+<script language="javascript" type="text/javascript">
+    function calculation()
+    {
+     var i=document.forms[0].pradeep.selectedIndex;
+   
+    if(i==0)
+    {
+        var amt = document.getElementById("Text1").value;
+        var dec=2;
+    var ast = (amt * 6.502)/100 ;
+     document.getElementById("Text2").value= Math.round(ast*Math.pow(10,dec))/Math.pow(10,dec) ;
+     
+     var nb=Number(ast);
+     var dec=2;
+       document.getElementById("Text21").value= Math.round(nb*Math.pow(10,dec))/Math.pow(10,dec) ;
+    
+       
+     var bst=(amt*6.926)/100;
+      document.getElementById("Text3").value=Math.round(bst*Math.pow(10,dec))/Math.pow(10,dec) ; 
+      
+      var na=Number(ast)+Number(bst);
+      var dec=2;
+       document.getElementById("Text31").value= Math.round(na*Math.pow(10,dec))/Math.pow(10,dec) ;
+      
+      var cst=(amt*7.367)/100;
+      document.getElementById("Text4").value=Math.round(cst*Math.pow(10,dec))/Math.pow(10,dec) ;
+      var nc=Number(ast)+Number(bst)+Number(cst);
+      var dec=2;
+       document.getElementById("Text41").value= Math.round(nc*Math.pow(10,dec))/Math.pow(10,dec) ;
+       
+    
+      var dst=(amt*10.285)/100;
+      document.getElementById("Text5").value=Math.round(dst*Math.pow(10,dec))/Math.pow(10,dec) ;
+      var aa=Number(bst)+Number(ast)+ Number(cst)+Number(dst);
+      
+      var dec=2;
+      
+      document.getElementById("Text51").value= Math.round(aa*Math.pow(10,dec))/Math.pow(10,dec) ;
+      var est=(amt*12.483)/100;
+      document.getElementById("Text6").value=Math.round(est*Math.pow(10,dec))/Math.pow(10,dec) ;
+      var bb=Number(document.getElementById("Text51").value) + Number(est) ;
+      document.getElementById("Text61").value= Math.round(bb*Math.pow(10,dec))/Math.pow(10,dec) ;
+      
+      var fst=(amt*10.767)/100;
+      document.getElementById("Text7").value=Math.round(fst*Math.pow(10,dec))/Math.pow(10,dec) ;
+     var cc=Number(document.getElementById("Text61").value) + Number(fst) ;
+      document.getElementById("Text71").value= Math.round(cc*Math.pow(10,dec))/Math.pow(10,dec) ;
+      var gst=(amt*17.052)/100;
+      document.getElementById("Text8").value=Math.round(gst*Math.pow(10,dec))/Math.pow(10,dec) ;;
+     var dd=Number(document.getElementById("Text71").value) + Number(gst) ;
+      document.getElementById("Text81").value= Math.round(dd*Math.pow(10,dec))/Math.pow(10,dec) ;
+      var hst=(amt*6.724)/100;
+      document.getElementById("Text9").value=Math.round(hst*Math.pow(10,dec))/Math.pow(10,dec) ;
+       var ee=Number(document.getElementById("Text81").value) + Number(hst) ;
+      document.getElementById("Text91").value= Math.round(ee*Math.pow(10,dec))/Math.pow(10,dec) ;
+      
+       var ist=(amt*6.987)/100;
+      document.getElementById("Text10").value=Math.round(ist*Math.pow(10,dec))/Math.pow(10,dec) ;
+      var ff=Number(document.getElementById("Text91").value) + Number(ist) ;
+      document.getElementById("Text101").value= Math.round(ff*Math.pow(10,dec))/Math.pow(10,dec) ;
+       var jst=(amt*14.907)/100;
+      document.getElementById("Text11").value=Math.round(jst*Math.pow(10,dec))/Math.pow(10,dec) ;
+       var gg=Number(document.getElementById("Text101").value) + Number(jst) ;
+      document.getElementById("Text111").value= Math.round(gg*Math.pow(10,dec))/Math.pow(10,dec) ;
+      
+      
+      document.getElementById("Text12").value=ast+bst+cst+dst+est+fst+gst+hst+ist+jst;
+      var a= document.getElementById("Text12").value;
+      var b=document.getElementById("Text1").value;
+      
+    document.getElementById("Text13").value= Number(a) + Number(b);
+    }
+    else if(i==1)
+    {
+    var dec=2;
+    var amt = document.getElementById("Text1").value;
+    var ast = (amt * 7.4)/100 ;
+     document.getElementById("Text2").value=Math.round(ast*Math.pow(10,dec))/Math.pow(10,dec) ;
+       var nb=Number(ast);
+     var dec=2;
+       document.getElementById("Text21").value= Math.round(nb*Math.pow(10,dec))/Math.pow(10,dec) ;
+       
+     var bst=(amt*7.9)/100;
+      document.getElementById("Text3").value=Math.round(bst*Math.pow(10,dec))/Math.pow(10,dec) ; 
+      var na=Number(ast)+Number(bst);
+      var dec=2;
+       document.getElementById("Text31").value= Math.round(na*Math.pow(10,dec))/Math.pow(10,dec) ;
+       
+      var cst=(amt*10.3)/100;
+      document.getElementById("Text4").value=Math.round(cst*Math.pow(10,dec))/Math.pow(10,dec) ;
+      var nc=Number(ast)+Number(bst)+Number(cst);
+      var dec=2;
+       document.getElementById("Text41").value= Math.round(nc*Math.pow(10,dec))/Math.pow(10,dec) ;
+             
+      var dst=(amt*12.6)/100;
+      document.getElementById("Text5").value=Math.round(dst*Math.pow(10,dec))/Math.pow(10,dec) ;
+      var aa=Number(bst)+Number(ast)+ Number(cst)+Number(dst);
+      var dec=2;
+      document.getElementById("Text51").value= Math.round(aa*Math.pow(10,dec))/Math.pow(10,dec) ;
+      var est=(amt*15.2)/100;
+      document.getElementById("Text6").value=Math.round(est*Math.pow(10,dec))/Math.pow(10,dec) ;
+      var bb=Number(document.getElementById("Text51").value) + Number(est) ;
+      document.getElementById("Text61").value= Math.round(bb*Math.pow(10,dec))/Math.pow(10,dec) ;
+      
+      var fst=(amt*13.8)/100;
+      document.getElementById("Text7").value=Math.round(fst*Math.pow(10,dec))/Math.pow(10,dec) ;
+     var cc=Number(document.getElementById("Text61").value) + Number(fst) ;
+      document.getElementById("Text71").value= Math.round(cc*Math.pow(10,dec))/Math.pow(10,dec) ;
+      var gst=(amt*21.1)/100;
+      document.getElementById("Text8").value=Math.round(gst*Math.pow(10,dec))/Math.pow(10,dec) ;
+     var dd=Number(document.getElementById("Text71").value) + Number(gst) ;
+      document.getElementById("Text81").value= Math.round(dd*Math.pow(10,dec))/Math.pow(10,dec) ;
+      var hst=(amt*11.7)/100;
+      document.getElementById("Text9").value=Math.round(hst*Math.pow(10,dec))/Math.pow(10,dec) ;
+       var ee=Number(document.getElementById("Text81").value) + Number(hst) ;
+      document.getElementById("Text91").value= Math.round(ee*Math.pow(10,dec))/Math.pow(10,dec) ;
+      
+       
+      
+      document.getElementById("Text12").value=ast+bst+cst+dst+est+fst+gst+hst;
+      var a= document.getElementById("Text12").value;
+      var b=document.getElementById("Text1").value;
+      
+    document.getElementById("Text13").value= Number(a) + Number(b);
+     
+     
+    }
+     else if(i==2)
+    {
+     var dec=2;
+      var amt = document.getElementById("Text1").value;
+    var ast = (amt * 7.9)/100 ;
+     document.getElementById("Text2").value=Math.round(ast*Math.pow(10,dec))/Math.pow(10,dec) ;
+      var nb=Number(ast);
+     var dec=2;
+       document.getElementById("Text21").value= Math.round(nb*Math.pow(10,dec))/Math.pow(10,dec) ; 
+     
+     var bst=(amt*8.5)/100;
+      document.getElementById("Text3").value=Math.round(bst*Math.pow(10,dec))/Math.pow(10,dec) ; 
+       var na=Number(ast)+Number(bst);
+      var dec=2;
+       document.getElementById("Text31").value= Math.round(na*Math.pow(10,dec))/Math.pow(10,dec) ;
+      
+      var cst=(amt*11.0)/100;
+      document.getElementById("Text4").value=Math.round(cst*Math.pow(10,dec))/Math.pow(10,dec) ;
+      var nc=Number(ast)+Number(bst)+Number(cst);
+      var dec=2;
+       document.getElementById("Text41").value= Math.round(nc*Math.pow(10,dec))/Math.pow(10,dec) ;
+      
+      var dst=(amt*13.5)/100;
+      document.getElementById("Text5").value=Math.round(dst*Math.pow(10,dec))/Math.pow(10,dec) ;
+      var aa=Number(bst)+Number(ast)+ Number(cst)+Number(dst);
+      var dec=2;
+      document.getElementById("Text51").value= Math.round(aa*Math.pow(10,dec))/Math.pow(10,dec) ;
+      var est=(amt*16.3)/100;
+      document.getElementById("Text6").value=Math.round(est*Math.pow(10,dec))/Math.pow(10,dec) ;
+      var bb=Number(document.getElementById("Text51").value) + Number(est) ;
+      document.getElementById("Text61").value= Math.round(bb*Math.pow(10,dec))/Math.pow(10,dec) ;
+      
+      var fst=(amt*19.8)/100;
+      document.getElementById("Text7").value=Math.round(fst*Math.pow(10,dec))/Math.pow(10,dec) ;
+     var cc=Number(document.getElementById("Text61").value) + Number(fst) ;
+      document.getElementById("Text71").value= Math.round(cc*Math.pow(10,dec))/Math.pow(10,dec) ;
+     
+      var hst=(amt*23.0)/100;
+      document.getElementById("Text9").value=Math.round(hst*Math.pow(10,dec))/Math.pow(10,dec) ;
+       var ee=Number(document.getElementById("Text71").value) + Number(hst) ;
+      document.getElementById("Text91").value= Math.round(ee*Math.pow(10,dec))/Math.pow(10,dec) ;
+      
+       
+      
+      document.getElementById("Text12").value=ast+bst+cst+dst+est+fst+hst;
+      var a= document.getElementById("Text12").value;
+      var b=document.getElementById("Text1").value;
+      
+    document.getElementById("Text13").value= Number(a) + Number(b);
+     
+    
+    }
+    
+    
+     
+     }
+     function pp()
+     {
+      var i=document.forms[0].pradeep.selectedIndex;
+     document.getElementById("Text2").value= "";
+     document.getElementById("Text3").value= "";
+     document.getElementById("Text4").value= "";
+     document.getElementById("Text5").value= "";
+     document.getElementById("Text6").value= "";
+     document.getElementById("Text7").value= "";
+     document.getElementById("Text8").value= "";
+     document.getElementById("Text9").value= "";
+     document.getElementById("Text10").value= "";
+     document.getElementById("Text11").value= "";
+     document.getElementById("Text12").value= "";
+     document.getElementById("Text13").value= "";
+     document.getElementById("Text21").value= "";
+     document.getElementById("Text31").value= "";
+     document.getElementById("Text41").value= "";
+     document.getElementById("Text51").value= "";
+     document.getElementById("Text61").value= "";
+     document.getElementById("Text71").value= "";
+     document.getElementById("Text81").value= "";
+     document.getElementById("Text91").value= "";
+     document.getElementById("Text101").value= "";
+     document.getElementById("Text111").value= "";
+     
+     if (i==1)
+     {
+     
+      document.getElementById("xx").style.display  ="none";
+      document.getElementById("xxx").style.display  ="none";
+      //td_year7
+      document.getElementById("td_year7").innerHTML="7th Year And 8 Months Interest";
+     }
+     if (i==0)
+     {
+      document.getElementById("xx").style.display  ="block";
+      document.getElementById("xxx").style.display  ="block";
+      document.getElementById("xxxx").style.display  ="block";
+     }
+     if(i==2)
+     {
+     document.getElementById("xx").style.display  ="none";
+      document.getElementById("xxx").style.display  ="none";
+      document.getElementById("xxxx").style.display  ="none";
+     document.getElementById("td_year7").innerHTML="7th Year And 3 Months Interest";
+
+     }
+     
+     }
+    
+    
+    </script>
+
+<table style="BORDER-RIGHT: rgb(153,51,102) thin solid; BORDER-TOP: rgb(153,51,102) thin solid; FONT-SIZE: 9pt; Z-INDEX: 100; BORDER-LEFT: rgb(153,51,102) thin solid; COLOR: black; BORDER-BOTTOM: rgb(153,51,102) thin solid; TEXT-ALIGN: center" align="center">
+<tbody>
+<tr>
+<td style="FONT-WEIGHT: bold; FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial" colspan="2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Kisan Vikas Patras</td></tr>
+<tr>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">Purchase Amount</td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">&nbsp;<input id="Text1" style="WIDTH: 168px; TEXT-ALIGN: right"></td></tr>
+<tr>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">Period Of Purchase</td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial"><select id="Select1" style="FONT-WEIGHT: bold; MARGIN-LEFT: 4px; WIDTH: 175px; COLOR: black; FONT-FAMILY: Arial" onchange="pp()" name="pradeep"> <option id="cmb1" value="op1" selected="">After 28.2.03</option> <option id="cmb2" value="op2">After 28.2.2002 before 1.3.03</option> <option id="cmb3" value="op3">After 28.2.2001 before 1.3.02</option></select> </td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">&nbsp; &nbsp; Cumulative Interest</td></tr>
+<tr>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">1'st Year Interest</td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">&nbsp;<input id="Text2" style="WIDTH: 168px; TEXT-ALIGN: right"></td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial"><input id="Text21" style="WIDTH: 168px; TEXT-ALIGN: right"></td></tr>
+<tr>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">2'nd Year Interest</td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">&nbsp;<input id="Text3" style="WIDTH: 168px; TEXT-ALIGN: right"></td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial"><input id="Text31" style="WIDTH: 168px; TEXT-ALIGN: right"></td></tr>
+<tr>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">3'rd Year Interest</td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">&nbsp;<input id="Text4" style="WIDTH: 168px; TEXT-ALIGN: right"></td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial"><input id="Text41" style="WIDTH: 168px; TEXT-ALIGN: right"></td></tr>
+<tr>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">4'th Year Interest</td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">&nbsp;<input id="Text5" style="WIDTH: 168px; TEXT-ALIGN: right"></td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial"><input id="Text51" style="WIDTH: 168px; TEXT-ALIGN: right"></td></tr>
+<tr>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">5'th Year Interest</td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">&nbsp;<input id="Text6" style="WIDTH: 168px; TEXT-ALIGN: right"></td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial"><input id="Text61" style="WIDTH: 168px; TEXT-ALIGN: right"></td></tr>
+<tr>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">6'th Year Interest</td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">&nbsp;<input id="Text7" style="WIDTH: 168px; TEXT-ALIGN: right"></td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial"><input id="Text71" style="WIDTH: 168px; TEXT-ALIGN: right"></td></tr>
+<tr id="xxxx">
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">7'th Year Interest</td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">&nbsp;<input id="Text8" style="WIDTH: 168px; TEXT-ALIGN: right"></td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial"><input id="Text81" style="WIDTH: 168px; TEXT-ALIGN: right"></td></tr>
+<tr>
+<td id="td_year7" style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">7'th Year And 6 Months Interest</td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">&nbsp;<input id="Text9" style="WIDTH: 168px; TEXT-ALIGN: right"></td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial"><input id="Text91" style="WIDTH: 168px; TEXT-ALIGN: right"></td></tr>
+<tr id="xx">
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">8'th Year Interest</td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">&nbsp;<input id="Text10" style="WIDTH: 168px; TEXT-ALIGN: right"></td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial"><input id="Text101" style="WIDTH: 168px; TEXT-ALIGN: right"></td></tr>
+<tr id="xxx">
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">8'th Year And 7 Months Interest</td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">&nbsp;<input id="Text11" style="WIDTH: 168px; TEXT-ALIGN: right"></td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial"><input id="Text111" style="WIDTH: 168px; TEXT-ALIGN: right"></td></tr>
+<tr>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">TOTAL INTEREST</td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">&nbsp;<input id="Text12" style="WIDTH: 168px; TEXT-ALIGN: right"></td></tr>
+<tr>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">MATURITY AMOUNT</td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">&nbsp;<input id="Text13" style="WIDTH: 168px; TEXT-ALIGN: right"></td></tr>
+<tr>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial"><input id="compute" style="FONT-WEIGHT: bold; MARGIN-LEFT: 10px; COLOR: black" onclick="calculation()" type="button" value="Calculate"> </td>
+<td style="FONT-SIZE: 9pt; WIDTH: 179px; COLOR: black; FONT-FAMILY: Arial">&nbsp;</td></tr></tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+            </td></tr></tbody></table>
+    <script type="text/javascript" src="kvp.js" ></script>
+    
+   </form>
+			</body></html>
